@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Home</title>
+
+  <h1 id="stmt">f</h1>
+
+
+  <script>
+    window.response = {{ response | safe }}
+
+    const h1 = document.getElementById("stmt");
+    h1.innerText = window.response;
+   
+  </script>
+
+</head>
