@@ -7,7 +7,7 @@ from bs4 import BeautifulSoup
 
 def getGarageData():
     
-    PATH = "/Users/apello/Downloads/chromedriver" # path of driver
+    PATH = "/Users/apello/Desktop/Coding Projects/Hackathon/chromedriver" # path of driver
 
     chrome_options = Options() # chrome options
     chrome_options.add_argument("--headless") # hide browser
