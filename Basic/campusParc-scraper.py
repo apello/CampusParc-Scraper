@@ -6,7 +6,7 @@ import numpy as np
 from bs4 import BeautifulSoup
 import time
 
-PATH = "/Users/apello/Desktop/Coding Projects/Hackathon/chromedriver" # path of driver
+PATH = "#/chromedriver" # path of driver
 
 chrome_options = Options() # chrome options
 chrome_options.add_argument("--headless") # hide browser
